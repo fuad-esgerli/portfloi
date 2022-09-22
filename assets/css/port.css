@@ -130,6 +130,7 @@ font-family: 'Roboto';
   }
   .services-card img {
     padding: 20px;
+    flex-wrap: wrap;
     }
     .services-card h1 {
         font-size: 24px;
@@ -289,6 +290,7 @@ font-family: 'Roboto';
         justify-content: space-between;
         margin: 0 auto;
         font-size: 14px;
+        
     }
     .eduction-line {
         display: flex;

@@ -35,19 +35,8 @@ padding: 10px;
 font-weight: 400;
 font-family: 'Roboto';
 } 
-@media (max-width:768px) {
-    .nav-links{
-        display: none;
-    }
-    .fa-bars {
-        display: flex;
-    }
-} 
- @media(min-width:1400px) {
-    h1 {
-        font-size: 72px;
-    }
- }
+
+ 
 .introduction {
     justify-content: space-between;
     display: flex;
@@ -290,7 +279,7 @@ font-family: 'Roboto';
         justify-content: space-between;
         margin: 0 auto;
         font-size: 14px;
-        
+
     }
     .eduction-line {
         display: flex;
@@ -489,4 +478,17 @@ font-family: 'Roboto';
         text-decoration: none;
         display: flex;
     }
-    
+    @media (max-width:768px) {
+        .nav-links{
+            display: none;
+        }
+        .fa-bars {
+            display: flex;
+        }
+    } 
+    @media(min-width:1400px) {
+        h1 {
+            font-size: 72px;
+        }
+     }
+     
